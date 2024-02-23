@@ -22,8 +22,6 @@ import com.google.firebase.auth.FirebaseUser;
 public class RegistrationActivity extends AppCompatActivity {
     // Declaring variables
     private EditText emailEdTxt, passwordEdTxt;
-    private Button btn_register;
-    private TextView signinTxt;
     private ProgressBar progressBar;
     private FirebaseAuth mAuth;
 
@@ -50,8 +48,8 @@ public class RegistrationActivity extends AppCompatActivity {
         // Initialising
         emailEdTxt = findViewById(R.id.emailEdtxt);
         passwordEdTxt = findViewById(R.id.passwordEdtxt);
-        btn_register = findViewById(R.id.btn_register);
-        signinTxt = findViewById(R.id.signinTxt);
+        Button btn_register = findViewById(R.id.btn_register);
+        TextView signinTxt = findViewById(R.id.signinTxt);
         progressBar = findViewById(R.id.progressBar);
         mAuth = FirebaseAuth.getInstance();
 

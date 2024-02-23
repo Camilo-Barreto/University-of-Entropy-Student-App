@@ -23,8 +23,6 @@ public class LoginActivity extends AppCompatActivity {
 
     // Declaring android widgets
     private EditText emailEdTxt, passwordEdTxt;
-    private Button btn_login;
-    private TextView registerUserTxt;
     private ProgressBar progressBar;
     private FirebaseAuth mAuth;
 
@@ -50,8 +48,8 @@ public class LoginActivity extends AppCompatActivity {
         // Initialising
         emailEdTxt = findViewById(R.id.emailEdtxt);
         passwordEdTxt = findViewById(R.id.passwordEdtxt);
-        btn_login = findViewById(R.id.btn_login);
-        registerUserTxt = findViewById(R.id.registerUserTxt);
+        Button btn_login = findViewById(R.id.btn_login);
+        TextView registerUserTxt = findViewById(R.id.registerUserTxt);
         progressBar = findViewById(R.id.progressBar);
         mAuth = FirebaseAuth.getInstance();
 
