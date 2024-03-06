@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if (currentUser != null){
             // User is logged is as current user is not null -> Open welcome page
-            Intent intent = new Intent(getApplicationContext(), WelcomeActivity.class);
+            Intent intent = new Intent(getApplicationContext(), AppHomePage.class);
             startActivity(intent);
             finish();
         }
@@ -95,7 +95,7 @@ public class LoginActivity extends AppCompatActivity {
                                     progressBar.setVisibility(View.GONE);
                                     // if sign-in is successful
                                     // intent to home activity
-                                    Intent intent = new Intent(LoginActivity.this, WelcomeActivity.class);
+                                    Intent intent = new Intent(LoginActivity.this, AppHomePage.class);
                                     startActivity(intent);
                                     finish();
                                 }
