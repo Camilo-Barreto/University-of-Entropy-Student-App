@@ -2,6 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="blue">#00BCD4</color>
     <color name="airSuperiorityBlue">#6096BA</color>
     <color name="tropicalIndigo">#8A84E2</color>
     <color name="cambridgeBlue">#72BDA3</color>
