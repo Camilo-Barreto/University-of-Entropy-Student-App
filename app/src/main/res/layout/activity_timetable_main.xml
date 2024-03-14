@@ -6,41 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".taskbarFragments.TimetableMain">
 
-    <com.google.android.material.tabs.TabLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="false"
-        android:background="#999999"
-        app:tabIndicatorColor="@color/black"
-        app:tabIndicatorFullWidth="true"
-        android:id="@+id/taskbar_tablayout">
+        android:text="First, I wanted to add timetable as an activity"></TextView>
+<!--    <com.google.android.material.tabs.TabLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="false"-->
+<!--        android:background="#999999"-->
+<!--        app:tabIndicatorColor="@color/black"-->
+<!--        app:tabIndicatorFullWidth="true"-->
+<!--        android:id="@+id/taskbar_tablayout">-->
 
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Monday"/>
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Monday"/>-->
 
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Tuesday"/>
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Tuesday"/>-->
 
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Wednesday"/>
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Wednesday"/>-->
 
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Thursday"/>
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Thursday"/>-->
 
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Friday"/>
+<!--        <com.google.android.material.tabs.TabItem-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Friday"/>-->
 
 
-    </com.google.android.material.tabs.TabLayout>
+<!--    </com.google.android.material.tabs.TabLayout>-->
 
 </RelativeLayout>

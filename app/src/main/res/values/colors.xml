@@ -9,4 +9,8 @@
     <color name="eerieBlack">#191919</color>
     <color name="snow">#FFFAFB</color>
     <color name="vistaBlue">#7899D4</color>
+    <color name="blueAnime">#0081A7</color>
+    <color name="lighterBlueAnime">#00AFB9</color>
+    <color name="yellowtintAnime">#FED9B7</color>
+    <color name="orangetintAnime">#F07167</color>
 </resources>
