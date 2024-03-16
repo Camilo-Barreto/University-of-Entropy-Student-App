@@ -5,22 +5,11 @@
     android:layout_height="match_parent"
     tools:context=".innerFragments.MondayTimetableFragment">
 
-    <TextView
-        android:id="@+id/timetable_day_txtview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:textAlignment="center"
-        android:background="@color/blue"
-        android:textColor="@color/black"
-        android:text="TIMETABLE FOR MONDAY"/>
-
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/monday_recyclerView"
-        android:layout_marginTop="5dp"
-        android:layout_below="@+id/timetable_day_txtview">
+        android:layout_marginTop="5dp">
 
     </androidx.recyclerview.widget.RecyclerView>
 </RelativeLayout>

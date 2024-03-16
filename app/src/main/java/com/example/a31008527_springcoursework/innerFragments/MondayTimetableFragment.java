@@ -35,17 +35,17 @@ public class MondayTimetableFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(requireContext()));
         recyclerView.setAdapter(new MyTimetableRecyclerAdapter(requireContext(), itemTimetableModules));
 
-        itemTimetableModules.add(new itemTimetableModule("Fundamentals of Computer Science",
+        itemTimetableModules.add(new itemTimetableModule(getString(R.string.fundamentals_of_cs),
                 "JJ Thompson Slingo Theatre", "9:00", "11:00"));
-        itemTimetableModules.add(new itemTimetableModule("Applications of Computer Science",
+        itemTimetableModules.add(new itemTimetableModule(getString(R.string.applications_of_cs),
                     "JJ Thompson Ditchburn Theatre", "12:00", "14:00"));
-        itemTimetableModules.add(new itemTimetableModule("Programming in C/C++",
+        itemTimetableModules.add(new itemTimetableModule(getString(R.string.programming_in_c_c),
                 "Polly Vacher G56", "16:00", "18:00"));
-        itemTimetableModules.add(new itemTimetableModule("Fundamentals of Computer Science",
+        itemTimetableModules.add(new itemTimetableModule(getString(R.string.fundamentals_of_cs),
                 "JJ Thompson Slingo Theatre", "9:00", "11:00"));
-        itemTimetableModules.add(new itemTimetableModule("Applications of Computer Science",
+        itemTimetableModules.add(new itemTimetableModule(getString(R.string.applications_of_cs),
                 "JJ Thompson Ditchburn Theatre", "12:00", "14:00"));
-        itemTimetableModules.add(new itemTimetableModule("Programming in C/C++",
+        itemTimetableModules.add(new itemTimetableModule(getString(R.string.programming_in_c_c),
                 "Polly Vacher G56", "16:00", "18:00"));
         return rootview;
     }

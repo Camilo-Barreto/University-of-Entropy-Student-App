@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="false"
-        android:background="#999999"
+
         app:tabIndicatorColor="@color/black"
         app:tabIndicatorFullWidth="true"
         android:id="@+id/days_tablayout">
@@ -23,7 +23,7 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tuesday"/>
+            android:text="@string/tuesday" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"

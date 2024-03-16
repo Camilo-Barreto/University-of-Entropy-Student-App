@@ -10,9 +10,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="#999999"
-        app:tabIndicatorColor="@color/black"
+        android:background="@color/yellowtintAnime"
+        app:tabIndicatorColor="#FF5722"
         app:tabIndicatorFullWidth="true"
+        app:tabTextColor="#514B4B"
+        app:tabSelectedTextColor="#B71C1C"
+
         android:id="@+id/taskbar_tablayout">
 
         <com.google.android.material.tabs.TabItem
