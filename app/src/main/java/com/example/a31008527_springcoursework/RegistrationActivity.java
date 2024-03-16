@@ -59,6 +59,7 @@ public class RegistrationActivity extends AppCompatActivity {
                 // Open the login page
                 Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -67,10 +68,9 @@ public class RegistrationActivity extends AppCompatActivity {
         btn_register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // show the visibility of progress bar to show loading
-                progressBar.setVisibility(View.VISIBLE);
 
                 String email, password;
+
                 // Can use string.value of or getText().toString()
                 email = emailEdTxt.getText().toString();
                 password = passwordEdTxt.getText().toString();
@@ -84,6 +84,9 @@ public class RegistrationActivity extends AppCompatActivity {
                     Toast.makeText(RegistrationActivity.this, "Enter password", Toast.LENGTH_SHORT).show();
                     return;
                 }
+
+                // show the visibility of progress bar to show loading
+                progressBar.setVisibility(View.VISIBLE);
 
                 mAuth.createUserWithEmailAndPassword(email, password)
                         .addOnCompleteListener(new OnCompleteListener<AuthResult>()

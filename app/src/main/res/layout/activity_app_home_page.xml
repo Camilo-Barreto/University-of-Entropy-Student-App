@@ -38,11 +38,6 @@
             android:layout_height="wrap_content"
             android:text="Profile"/>
 
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="More"/>
-
     </com.google.android.material.tabs.TabLayout>
 
     <!--Adding Viewpager above the tab layout-->

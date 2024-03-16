@@ -45,7 +45,6 @@
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="match_parent"
-                        android:id="@+id/module_logo"
                         android:src="@drawable/icon_module"/>
 
                     <TextView
@@ -65,7 +64,6 @@
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="match_parent"
-                        android:id="@+id/location_logo"
                         android:src="@drawable/icon_location"/>
 
                     <TextView

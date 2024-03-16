@@ -2,17 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="blue">#00BCD4</color>
-    <color name="airSuperiorityBlue">#6096BA</color>
     <color name="tropicalIndigo">#8A84E2</color>
-    <color name="cambridgeBlue">#72BDA3</color>
     <color name="colombiaBlue">#D3F2FF</color>
     <color name="eerieBlack">#191919</color>
     <color name="snow">#FFFAFB</color>
     <color name="vistaBlue">#7899D4</color>
-    <color name="blueAnime">#0081A7</color>
-    <color name="lighterBlueAnime">#00AFB9</color>
     <color name="yellowtintAnime">#FED9B7</color>
     <color name="orangetintAnime">#F07167</color>
-    <color name="platinum">#E0E0E0</color>
 </resources>

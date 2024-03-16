@@ -24,7 +24,7 @@ public class WelcomeActivity extends AppCompatActivity {
         TextView userEmailTxt = findViewById(R.id.txt_user_signed_in);
         Button btn_logout = findViewById(R.id.btn_logout);
 
-        // get the user
+        // get the user signed in
         FirebaseUser user = auth.getCurrentUser();
         // If no user
         if (user == null) {

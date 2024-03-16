@@ -26,8 +26,6 @@ public class HomePageViewAdapter extends FragmentStateAdapter {
                 return new HomePageFragment();
             case 3:
                 return new ProfilePageFragment();
-            case 4:
-                return new HomePageFragment();
             default:
                 return new HomePageFragment  ();
         }
