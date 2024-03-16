@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">31008527-SpringCoursework</string>
+    <string name="university">University of Entropy</string>
     <string name="enterEmailPrompt">Please enter email</string>
     <string name="alreadyUserLogin">Already a user? Login</string>
     <string name="register">Register</string>
@@ -27,6 +28,7 @@
     <string name="databases_and_information_security">Databases and Information Security</string>
     <string name="software_engineering_quality_and_testing">Software Engineering: Quality and Testing</string>
     <string name="sign_up">Sign up</string>
+    <string name="university_logo">University Logo</string>
     <!-- Strings used for fragments for navigation -->
 
 </resources>
