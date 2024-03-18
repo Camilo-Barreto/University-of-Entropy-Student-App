@@ -4,13 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/yellowtintAnime"
     tools:context=".taskbarFragments.TimetablePageFragment">
 
     <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellowtintAnime"
         android:layout_alignParentBottom="false"
-
         app:tabIndicatorColor="@color/black"
         app:tabIndicatorFullWidth="true"
         android:id="@+id/days_tablayout">
@@ -46,5 +47,6 @@
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#F5F5F5"
         android:layout_below="@+id/days_tablayout"/>
 </RelativeLayout>

@@ -1,3 +1,5 @@
+import com.android.build.gradle.internal.cxx.configure.gradleLocalProperties
+
 plugins {
     id("com.android.application")
     id("com.google.gms.google-services")
@@ -15,6 +17,9 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        val properties = gradleLocalProperties(rootDir)
+        buildConfigField("String", "newsApiKey", "\"${properties.getProperty("newsApiKey")}\"")
     }
 
     buildTypes {
@@ -29,6 +34,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 }
 
@@ -43,4 +49,6 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation("com.github.KwabenBerko:News-API-Java:1.0.2")
+    implementation("com.squareup.picasso:picasso:2.8")
 }

@@ -13,13 +13,14 @@ import java.util.List;
 
 public class MyTimetableRecyclerAdapter extends RecyclerView.Adapter<TimetableViewHolder> {
 
-    Context context;
-    List<itemTimetableModule> timetableItems;
+    private Context context;
+    private List<itemTimetableModule> timetableItems;
 
     public MyTimetableRecyclerAdapter(Context context, List<itemTimetableModule> timetableItems) {
         this.context = context;
         this.timetableItems = timetableItems;
     }
+
     @NonNull
     @Override
     public TimetableViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -28,13 +29,16 @@ public class MyTimetableRecyclerAdapter extends RecyclerView.Adapter<TimetableVi
 
     @Override
     public void onBindViewHolder(@NonNull TimetableViewHolder holder, int position) {
-        holder.moduleName_txtv.setText(timetableItems.get(position).getModule());
-        holder.location_txtv.setText(timetableItems.get(position).getLocation());
-        holder.moduleTime_txtv.setText(timetableItems.get(position).getStartEndTime());
+        if (timetableItems != null && position < timetableItems.size()) {
+            itemTimetableModule item = timetableItems.get(position);
+            holder.moduleName_txtv.setText(item.getModule());
+            holder.location_txtv.setText(item.getLocation());
+            holder.moduleTime_txtv.setText(item.getStartEndTime());
+        }
     }
 
     @Override
     public int getItemCount() {
-        return timetableItems.size();
+        return timetableItems != null ? timetableItems.size() : 0;
     }
 }
