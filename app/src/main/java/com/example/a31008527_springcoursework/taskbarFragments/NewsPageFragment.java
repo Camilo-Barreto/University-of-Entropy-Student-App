@@ -87,7 +87,6 @@ public class NewsPageFragment extends Fragment {
 
                         });
                     }
-
                     @Override
                     public void onFailure(Throwable throwable) {
                         Log.i("NEWS FAILED", Objects.requireNonNull(throwable.getMessage()));

@@ -29,6 +29,7 @@
     <string name="software_engineering_quality_and_testing">Software Engineering: Quality and Testing</string>
     <string name="sign_up">Sign up</string>
     <string name="university_logo">University Logo</string>
-    <!-- Strings used for fragments for navigation -->
+    <string name="fourteen_degrees">14°</string>
+    <string name="max_14_min_5_temp">Max: 14° Min: 5°</string>
 
 </resources>
