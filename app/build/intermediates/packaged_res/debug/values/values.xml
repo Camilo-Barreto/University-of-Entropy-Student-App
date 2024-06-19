@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colombiaBlue">#D3F2FF</color>
+    <color name="eerieBlack">#191919</color>
+    <color name="orangetintAnime">#F07167</color>
+    <color name="snow">#FFFAFB</color>
+    <color name="tropicalIndigo">#8A84E2</color>
+    <color name="vistaBlue">#7899D4</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellowtintAnime">#FED9B7</color>
+    <string name="algorithms_and_operating_system">Algorithms and Operating System</string>
+    <string name="alreadyUserLogin">Already a user? Login</string>
+    <string name="app_name">31008527-SpringCoursework</string>
+    <string name="applications_of_cs">Applications of Computer Science</string>
+    <string name="compilers">Compilers</string>
+    <string name="databases_and_information_security">Databases and Information Security</string>
+    <string name="enterEmailPrompt">Please enter email</string>
+    <string name="fourteen_degrees">14°</string>
+    <string name="friday">Fri</string>
+    <string name="fundamentals_of_cs">Fundamentals of Computer Science</string>
+    <string name="gcm_defaultSenderId" translatable="false">152611250785</string>
+    <string name="google_api_key" translatable="false">AIzaSyDAx09-3RH4Mt5lfJs9YXkwVnNc0LRKcLM</string>
+    <string name="google_app_id" translatable="false">1:152611250785:android:dd05d8ade86fa15d568020</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDAx09-3RH4Mt5lfJs9YXkwVnNc0LRKcLM</string>
+    <string name="google_storage_bucket" translatable="false">springjavacoursework.appspot.com</string>
+    <string name="hello">Hello,</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="iwlp_german_1">IWLP German 1</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="max_14_min_5_temp">Max: 14° Min: 5°</string>
+    <string name="monday">Mon</string>
+    <string name="new_user_register_txt">New User? Register</string>
+    <string name="password">Password</string>
+    <string name="programming_in_c_c">Programming in C/C++</string>
+    <string name="programming_in_python">Programming in Python</string>
+    <string name="project_id" translatable="false">springjavacoursework</string>
+    <string name="register">Register</string>
+    <string name="sign_up">Sign up</string>
+    <string name="signed_in_as">Signed in as: </string>
+    <string name="software_engineering_quality_and_testing">Software Engineering: Quality and Testing</string>
+    <string name="thursday">Thur</string>
+    <string name="tuesday">Tue</string>
+    <string name="university">University of Entropy</string>
+    <string name="university_logo">University Logo</string>
+    <string name="wednesday">Wed</string>
+    <style name="Base.Theme._31008527SpringCoursework" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme._31008527SpringCoursework" parent="Base.Theme._31008527SpringCoursework"/>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/31008527-SpringCoursework.iml" filepath="$PROJECT_DIR$/.idea/modules/31008527-SpringCoursework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/31008527-SpringCoursework.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/31008527-SpringCoursework.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/31008527-SpringCoursework.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/31008527-SpringCoursework.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/31008527-SpringCoursework.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/31008527-SpringCoursework.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/31008527-SpringCoursework.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/31008527-SpringCoursework.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

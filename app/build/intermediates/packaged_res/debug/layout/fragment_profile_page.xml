@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".taskbarFragments.ProfilePageFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="320dp"
+                        android:background="@drawable/profile_top_background"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <ImageView
+                        android:id="@+id/student_dp"
+                        android:layout_width="202dp"
+                        android:layout_height="143dp"
+                        android:layout_marginTop="32dp"
+                        android:src="@drawable/student_dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/student_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Light Yagami"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="@+id/student_dp"
+                        app:layout_constraintStart_toStartOf="@+id/student_dp"
+                        app:layout_constraintTop_toBottomOf="@+id/student_dp" />
+
+                    <TextView
+                        android:id="@+id/student_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="light.note@student.entropy.ac.uk"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="@+id/student_name"
+                        app:layout_constraintStart_toStartOf="@+id/student_name"
+                        app:layout_constraintTop_toBottomOf="@+id/student_name" />
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/white_background"
+                        android:elevation="3dp"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/student_email">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="Degree"
+                                android:textAlignment="center"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="264dp"
+                                android:layout_height="wrap_content"
+                                android:text="Bsc Computer Science"
+                                android:textAlignment="viewEnd"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/contrasting_yellow_orange" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:text="Level"
+                                android:textAlignment="center"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:layout_height="wrap_content"
+                                android:text="Undergraduate"
+                                android:textAlignment="viewEnd"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/contrasting_yellow_orange" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:layout_width="183dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="Year "
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="135dp"
+                                android:layout_height="wrap_content"
+                                android:text="2"
+                                android:textAlignment="viewEnd"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/contrasting_yellow_orange" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="25dp"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="Number"
+                                android:textAlignment="center"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="244dp"
+                                android:layout_height="wrap_content"
+                                android:text="07023022003"
+                                android:textAlignment="viewEnd"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="24dp"
+                        android:background="@drawable/profile_bottom_background"
+                        android:elevation="3dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:rotation="360"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_background"
+                            android:elevation="3dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/anton"
+                                android:text="MODULES"
+                                android:textAlignment="center"
+                                android:textColor="@color/tropicalIndigo"
+                                android:textSize="22sp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/contrasting_yellow_orange" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/anonymous_pro"
+                                android:text="@string/applications_of_cs"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/contrasting_yellow_orange" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/anonymous_pro"
+                                android:text="@string/fundamentals_of_cs"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/contrasting_yellow_orange" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/anonymous_pro"
+                                android:text="@string/software_engineering_quality_and_testing"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/contrasting_yellow_orange" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/anonymous_pro"
+                                android:text="@string/databases_and_information_security"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/contrasting_yellow_orange" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/anonymous_pro"
+                                android:text="@string/algorithms_and_operating_system"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/contrasting_yellow_orange" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/anonymous_pro"
+                                android:text="@string/programming_in_c_c"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/contrasting_yellow_orange" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/anonymous_pro"
+                                android:text="@string/programming_in_python"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/contrasting_yellow_orange" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/anonymous_pro"
+                                android:text="@string/compilers"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/contrasting_yellow_orange" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/anonymous_pro"
+                                android:text="@string/iwlp_german_1"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_logout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/welcome_background"
+                        android:text="@string/logout"
+                        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+                        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        app:layout_constraintEnd_toEndOf="@+id/btn_logout"
+                        app:layout_constraintStart_toStartOf="@+id/btn_logout"
+                        app:layout_constraintTop_toBottomOf="@+id/btn_logout" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,3 @@
+com.example.a31008527_springcoursework.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-mergeDebugResources-47:\\layout\\fragment_monday_timetable.xml",
+        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\layout\\fragment_monday_timetable.xml"
+    },
+    {
+        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-mergeDebugResources-47:\\layout\\activity_app_home_page.xml",
+        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\layout\\activity_app_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-mergeDebugResources-47:\\layout\\login_activity.xml",
+        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\layout\\login_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-mergeDebugResources-47:\\layout\\fragment_timetable_page.xml",
+        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\layout\\fragment_timetable_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-mergeDebugResources-47:\\layout\\item_timetable.xml",
+        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\layout\\item_timetable.xml"
+    },
+    {
+        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-mergeDebugResources-47:\\layout\\news_recycler_card.xml",
+        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\layout\\news_recycler_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-mergeDebugResources-47:\\layout\\activity_registration.xml",
+        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-mergeDebugResources-47:\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-mergeDebugResources-47:\\layout\\fragment_profile_page.xml",
+        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\layout\\fragment_profile_page.xml"
+    },
+    {
+        "merged": "com.example.a31008527_springcoursework.app-mergeDebugResources-47:/layout/fragment_home_page.xml",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/layout/fragment_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-mergeDebugResources-47:\\layout\\fragment_news_page.xml",
+        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\layout\\fragment_news_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-mergeDebugResources-47:\\layout\\fragment_home_page.xml",
+        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\layout\\fragment_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-mergeDebugResources-47:\\layout\\activity_splash_screen_uoe.xml",
+        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\layout\\activity_splash_screen_uoe.xml"
+    }
+]
