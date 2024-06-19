@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "152611250785",
+    "project_id": "springjavacoursework",
+    "storage_bucket": "springjavacoursework.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152611250785:android:dd05d8ade86fa15d568020",
+        "android_client_info": {
+          "package_name": "com.example.a31008527_springcoursework"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAx09-3RH4Mt5lfJs9YXkwVnNc0LRKcLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152611250785:android:2049781655718c5d568020",
+        "android_client_info": {
+          "package_name": "com.example.week5loginscreen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAx09-3RH4Mt5lfJs9YXkwVnNc0LRKcLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

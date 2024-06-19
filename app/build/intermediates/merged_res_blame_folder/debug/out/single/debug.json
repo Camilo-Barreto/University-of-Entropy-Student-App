@@ -28,12 +28,24 @@
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\layout\\activity_splash_screen_uoe.xml"
     },
     {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/layout_fragment_monday_timetable.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/layout/fragment_monday_timetable.xml"
+    },
+    {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/drawable/ic_launcher_foreground.xml"
+    },
+    {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\drawable_white_background.xml.flat",
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\white_background.xml"
+    },
+    {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/xml/data_extraction_rules.xml"
     },
     {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\drawable_profile_top_background.xml.flat",
@@ -52,20 +64,28 @@
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\ic_launcher_background.xml"
+    },
+    {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\drawable_female_teacher_ai_generated_craiyon.png.flat",
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\female_teacher_ai_generated_craiyon.png"
     },
     {
-        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/layout_activity_welcome.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\drawable_sunny.png.flat",
+        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\sunny.png"
     },
     {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\drawable_sunny.png.flat",
-        "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\sunny.png"
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\drawable_icon_location.png.flat",
@@ -76,12 +96,20 @@
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\contrasting_yellow_orange.xml"
     },
     {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/drawable/ic_launcher_background.xml"
+    },
+    {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\drawable_no_image_icon.xml.flat",
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\no_image_icon.xml"
     },
     {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\drawable_studentdpfree.png.flat",
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\studentdpfree.png"
+    },
+    {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/layout_fragment_home_page.xml.flat",
@@ -96,8 +124,16 @@
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/layout_fragment_news_page.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/layout/fragment_news_page.xml"
+    },
+    {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/drawable_person_vector_image.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/drawable/person_vector_image.xml"
     },
     {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\layout_fragment_timetable_page.xml.flat",
@@ -126,6 +162,14 @@
     {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\drawable_university_of_entropy_logo.png.flat",
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\university_of_entropy_logo.png"
+    },
+    {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/layout_activity_app_home_page.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/layout/activity_app_home_page.xml"
+    },
+    {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/xml_backup_rules.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/xml/backup_rules.xml"
     },
     {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\drawable_person_vector_image.xml.flat",
@@ -172,6 +216,10 @@
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/layout_activity_splash_screen_uoe.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/layout/activity_splash_screen_uoe.xml"
+    },
+    {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\layout_fragment_profile_page.xml.flat",
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\layout\\fragment_profile_page.xml"
     },
@@ -180,8 +228,20 @@
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\layout\\activity_welcome.xml"
     },
     {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/drawable_no_image_icon.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/drawable/no_image_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\drawable_rain.png.flat",
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\rain.png"
+    },
+    {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/layout_login_activity.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/layout/login_activity.xml"
+    },
+    {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/layout_fragment_timetable_page.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/layout/fragment_timetable_page.xml"
     },
     {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\layout_news_recycler_card.xml.flat",
@@ -208,6 +268,10 @@
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\student_dp.png"
     },
     {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/drawable_news_placeholder.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/drawable/news_placeholder.xml"
+    },
+    {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\xml\\data_extraction_rules.xml"
     },
@@ -224,6 +288,10 @@
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\wind.png"
     },
     {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/layout_activity_registration.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/layout/activity_registration.xml"
+    },
+    {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\drawable_profile_bottom_background.xml.flat",
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\profile_bottom_background.xml"
     },
@@ -234,5 +302,9 @@
     {
         "merged": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-merged_res-48:\\drawable_welcome_background.xml.flat",
         "source": "C:\\Users\\csbar\\.gradle\\daemon\\8.0\\com.example.a31008527_springcoursework.app-main-50:\\drawable\\welcome_background.xml"
+    },
+    {
+        "merged": "com.example.a31008527_springcoursework.app-merged_res-48:/layout_fragment_profile_page.xml.flat",
+        "source": "com.example.a31008527_springcoursework.app-main-50:/layout/fragment_profile_page.xml"
     }
 ]

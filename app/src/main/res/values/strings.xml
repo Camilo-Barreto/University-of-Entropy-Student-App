@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">31008527-SpringCoursework</string>
+    <string name="university">University of Entropy</string>
+    <string name="enterEmailPrompt">Please enter email</string>
+    <string name="alreadyUserLogin">Already a user? Login</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="hello">Hello,</string>
+    <string name="login">Login</string>
+    <string name="new_user_register_txt">New User? Register</string>
+    <string name="logout">Logout</string>
+    <!-- The &#160 is an unicode reference for a non breaking space as xml files trim leading and
+    trailing white spaces (to display the email of the signed in user-->
+    <string name="signed_in_as">Signed in as:&#160;</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thur</string>
+    <string name="friday">Fri</string>
+    <string name="fundamentals_of_cs">Fundamentals of Computer Science</string>
+    <string name="applications_of_cs">Applications of Computer Science</string>
+    <string name="programming_in_c_c">Programming in C/C++</string>
+    <string name="iwlp_german_1">IWLP German 1</string>
+    <string name="algorithms_and_operating_system">Algorithms and Operating System</string>
+    <string name="compilers">Compilers</string>
+    <string name="programming_in_python">Programming in Python</string>
+    <string name="databases_and_information_security">Databases and Information Security</string>
+    <string name="software_engineering_quality_and_testing">Software Engineering: Quality and Testing</string>
+    <string name="sign_up">Sign up</string>
+    <string name="university_logo">University Logo</string>
+    <string name="fourteen_degrees">14°</string>
+    <string name="max_14_min_5_temp">Max: 14° Min: 5°</string>
+
+</resources>
